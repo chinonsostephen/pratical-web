@@ -1,0 +1,221 @@
+/* ------------NAVIGATION BAR STYLE-----------------*/
+.navbar{
+    
+    position: fixed;
+
+    width: 100%;
+    border-bottom:solid black;
+    border-width: 1px;
+    z-index: 1;
+    padding: 0;
+}
+#nav-bar{
+    background-color: #70bcc2;
+}
+.navbar a:hover {
+    color: #2020b4;
+}
+body {
+    position: relative;
+    background-color: #70bcc2;
+    color: #cfcfcf;
+}
+/*-------------FIRST CONTAINER----------*/
+.first-container{
+    padding: 0px 0 900px;
+    background-color: #1f4980;
+    position: relative;
+    width: 100%;
+}
+.first-container div h3 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: #2fe202;
+    font-family:sans-serif;
+    position: absolute;
+    bottom: 5%;
+    
+}
+       /*----------img styling----------*/
+#logo{
+height: 170px;
+width: 65%;
+position: absolute;
+top: 20%;
+
+}
+#stone1{
+height: 200px;
+width: 200px;
+position: absolute;
+top: 35%;
+
+}
+#jet{
+height: 350px;
+position: absolute;
+top:40% ;
+transform: rotate(45deg);
+
+}
+#stone2{
+height: 200px;
+position: absolute;
+top: 65%;
+right: 0;
+margin-right: 60px;
+width: 170px;
+margin: 0;
+
+}
+#stone3{
+    height: 80px;
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+
+}
+
+/*------------SECOND CONTAINER-----------*/
+     /*-----first box------*/
+.div2firstbox{
+    display: grid;
+    background-color: #380f41f3;
+    color: #fff;
+    width: 80%;
+    margin: 15% 8% 8%;
+    padding: 30px;
+    
+    
+}
+.div2center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.div2firstbox h2{
+    font-size: 33px;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+
+/*----------IMG DISPLAY----------*/
+#img-display{
+    height: 350px;
+    position: relative;
+
+}
+     /*----------img styling------------*/
+.displaystubo1{
+    height: 120px;
+    width: 120px;
+}
+.displaystone1{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 10%;
+} 
+.displaytubo2{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 70%;
+    right: 10%;
+}
+.displaystone2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} 
+.displaystone3{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+} 
+/*-------------second phase---------*/
+.div2secondphase{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.div2secondphase h1{
+    color: #09ff00e7;
+    font-size: 40px;
+    font-weight: 900;
+}
+.color-text{
+    color:#09ff00e7 ;
+}
+/*-----------MISSION BRIEFING---------*/
+.briefingintro{
+    color: #1f4980;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/*------------DIV 3 DISPLAY FLEX--------*/
+.div3displayflex{
+display: flex;
+flex: 1;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.item{
+    background-color: #464444;
+    margin-bottom: 45px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 30px;
+    width: 70%;
+    
+}
+.item span{
+    color: #3a85e7;
+    font-size: 16px;
+   
+}
+.beforefooter h1{
+    color: #1f4980;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.beforefooter{
+ text-align: center;
+}
+
+
+/*-----------footer-------------------*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+
+}
+.media img{
+    height: 40px;
+    padding-left:10px ;
+    
+    display: inline;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
